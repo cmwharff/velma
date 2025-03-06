@@ -2,14 +2,14 @@
     <h1>VELMA</h1>
     <div class="apps">
         <div class="app">
-            <a href="/store">
-                <img src="/img/store.png" alt="app" height="150px" />
+            <a href="./store">
+                <img src="./img/store.png" alt="app" height="150px" />
             </a>
             School Store
         </div>
         <div class="app">
-            <a href="/milestone">
-                <img src="/img/milestone.png" alt="app" height="150px" />
+            <a href="./milestone">
+                <img src="./img/milestone.png" alt="app" height="150px" />
             </a>
             Milestone 7
         </div>
@@ -20,8 +20,8 @@
             Maintenance
         </div> -->
         <div class="app">
-            <a href="/tools">
-                <img src="/img/tools.png" alt="app" height="150px" />
+            <a href="./tools">
+                <img src="./img/tools.png" alt="app" height="150px" />
             </a>
             Tool Check
         </div>
@@ -32,8 +32,8 @@
             Help Queue
         </div> -->
         <div class="app">
-            <a href="/docs">
-                <img src="/img/docs.png" alt="app" height="150px" />
+            <a href="./docs">
+                <img src="./img/docs.png" alt="app" height="150px" />
             </a>
             Documentation
         </div>
