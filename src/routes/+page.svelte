@@ -7,7 +7,7 @@
     <div class="apps">
         <div class="app">
             <a href="{base}/store">
-                <img src="{base}/static/img/store.png" alt="app" height="150px" />
+                <img src="/img/store.png" alt="app" height="150px" />
             </a>
             School Store
         </div>
