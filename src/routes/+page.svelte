@@ -13,12 +13,12 @@
             </a>
             Milestone 7
         </div>
-        <div class="app">
+        <!-- <div class="app">
             <a href="/maintenance">
                 <img src="/img/maintenance.png" alt="app" height="150px" />
             </a>
             Maintenance
-        </div>
+        </div> -->
         <div class="app">
             <a href="/tools">
                 <img src="/img/tools.png" alt="app" height="150px" />
