@@ -25,12 +25,12 @@
             </a>
             Tool Check
         </div>
-        <div class="app">
+        <!-- <div class="app">
             <a href="/queue">
                 <img src="/img/queue.png" alt="app" height="150px" />
             </a>
             Help Queue
-        </div>
+        </div> -->
         <div class="app">
             <a href="/docs">
                 <img src="/img/docs.png" alt="app" height="150px" />

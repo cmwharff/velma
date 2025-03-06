@@ -15,9 +15,9 @@
                 <a href="/">Home</a>
                 <a href="/store">School Store</a>
                 <a href="/milestone">Milestone 7</a>
-                <a href="/maintenance">Maintenance</a><br />
+                <!-- <a href="/maintenance">Maintenance</a><br /> -->
                 <a href="/tools">Tool Check</a>
-                <a href="/queue">Help Queue</a>
+                <!-- <a href="/queue">Help Queue</a> -->
                 <a href="/docs">Documentation</a>
             </p>
         </div>
