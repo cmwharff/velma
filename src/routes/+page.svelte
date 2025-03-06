@@ -6,7 +6,7 @@
     <h1>VELMA</h1>
     <div class="apps">
         <div class="app">
-            <a href="{base}/store">
+            <a href="/velma/store">
                 <img src="/img/store.png" alt="app" height="150px" />
             </a>
             School Store
