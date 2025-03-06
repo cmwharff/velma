@@ -1,9 +1,13 @@
+<script>
+    import { base } from "$app/paths";
+</script>
+
 <div class="text" id="Text">
     <h1>VELMA</h1>
     <div class="apps">
         <div class="app">
-            <a href="/store">
-                <img src="/img/store.png" alt="app" height="150px" />
+            <a href="{base}/store">
+                <img src="{base}/static/img/store.png" alt="app" height="150px" />
             </a>
             School Store
         </div>
