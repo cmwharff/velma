@@ -7,13 +7,13 @@
     <div class="apps">
         <div class="app">
             <a href="{base}/store">
-                <img src="/img/store.png" alt="app" height="150px" />
+                <img src="{base}/img/store.png" alt="app" height="150px" />
             </a>
             School Store
         </div>
         <div class="app">
             <a href="{base}/milestone">
-                <img src="/img/milestone.png" alt="app" height="150px" />
+                <img src="{base}/img/milestone.png" alt="app" height="150px" />
             </a>
             Milestone 7
         </div>
@@ -25,7 +25,7 @@
         </div> -->
         <div class="app">
             <a href="{base}/tools">
-                <img src="/img/tools.png" alt="app" height="150px" />
+                <img src="{base}/img/tools.png" alt="app" height="150px" />
             </a>
             Tool Check
         </div>
@@ -37,7 +37,7 @@
         </div> -->
         <div class="app">
             <a href="{base}/docs">
-                <img src="/img/docs.png" alt="app" height="150px" />
+                <img src="{base}/img/docs.png" alt="app" height="150px" />
             </a>
             Documentation
         </div>

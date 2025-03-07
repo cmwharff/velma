@@ -13,18 +13,18 @@
         <div class="directory">
             <h3>Menu</h3>
             <p>
-                <a href="{ base }">Home</a>
-                <a href="{ base }/store">School Store</a>
-                <a href="{ base }/milestone">Milestone 7</a>
+                <a href={base}>Home</a>
+                <a href="{base}/store">School Store</a>
+                <a href="{base}/milestone">Milestone 7</a>
                 <!-- <a href="/maintenance">Maintenance</a><br /> -->
-                <a href="{ base }/tools">Tool Check</a>
+                <a href="{base}/tools">Tool Check</a>
                 <!-- <a href="/queue">Help Queue</a> -->
-                <a href="{ base }/docs">Documentation</a>
+                <a href="{base}/docs">Documentation</a>
             </p>
         </div>
     {/if}
     <button id="bb" class="flipped" on:click={toggleVisible}>
-        <img id="M" src="/img/M.png" alt="M" />
+        <img id="M" src="{base}/img/M.png" alt="M" />
     </button>
 </div>
 
