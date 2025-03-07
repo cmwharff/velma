@@ -12,7 +12,7 @@
             School Store
         </div>
         <div class="app">
-            <a href="/milestone">
+            <a href="{base}/milestone">
                 <img src="/img/milestone.png" alt="app" height="150px" />
             </a>
             Milestone 7
@@ -24,7 +24,7 @@
             Maintenance
         </div> -->
         <div class="app">
-            <a href="/tools">
+            <a href="{base}/tools">
                 <img src="/img/tools.png" alt="app" height="150px" />
             </a>
             Tool Check
@@ -36,7 +36,7 @@
             Help Queue
         </div> -->
         <div class="app">
-            <a href="/docs">
+            <a href="{base}/docs">
                 <img src="/img/docs.png" alt="app" height="150px" />
             </a>
             Documentation

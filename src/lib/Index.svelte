@@ -1,5 +1,6 @@
 <script>
     import "../lib/global.css";
+    import { base } from "$app/paths";
 
     let visible = true;
     function toggleVisible() {
@@ -12,13 +13,13 @@
         <div class="directory">
             <h3>Menu</h3>
             <p>
-                <a href="/">Home</a>
-                <a href="/store">School Store</a>
-                <a href="/milestone">Milestone 7</a>
+                <a href="{ base }">Home</a>
+                <a href="{ base }/store">School Store</a>
+                <a href="{ base }/milestone">Milestone 7</a>
                 <!-- <a href="/maintenance">Maintenance</a><br /> -->
-                <a href="/tools">Tool Check</a>
+                <a href="{ base }/tools">Tool Check</a>
                 <!-- <a href="/queue">Help Queue</a> -->
-                <a href="/docs">Documentation</a>
+                <a href="{ base }/docs">Documentation</a>
             </p>
         </div>
     {/if}
