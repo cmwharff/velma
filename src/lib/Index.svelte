@@ -71,7 +71,7 @@
         height: 4vh;
         transform: rotateY(180deg);
     }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         .index {
             flex-direction: column;
         }
@@ -91,7 +91,7 @@
             padding: 0% 5%;
         }
     }
-    @media (min-width: 800px) {
+    @media (min-width: 900px) {
         .index {
             flex-direction: row;
         }

@@ -59,7 +59,7 @@
         margin: 0% 5%;
         margin-bottom: 3%;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         .apps {
             width: 75%;
         }
@@ -68,7 +68,7 @@
         }
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 900px) {
         .apps {
             width: 100%;
         }
