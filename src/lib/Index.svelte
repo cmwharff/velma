@@ -12,15 +12,29 @@
     {#if visible}
         <div class="directory">
             <h3>Menu</h3>
-            <p>
-                <a href={base}>Home</a>
-                <a href="{base}/store">School Store</a>
-                <a href="{base}/milestone">Milestone 7</a>
-                <!-- <a href="/maintenance">Maintenance</a><br /> -->
-                <a href="{base}/tools">Tool Check</a>
-                <!-- <a href="/queue">Help Queue</a> -->
-                <a href="{base}/docs">Documentation</a>
-            </p>
+            <!-- <p>
+                <a href="{base}">Home</a><br>
+                <a href="{base}/store">School Store</a><br>
+                <a href="{base}/milestone">Milestone 7</a><br>
+                <a href="/maintenance">Maintenance</a><br />
+                <a href="{base}/tools">Tool Check</a><br>
+                <a href="/queue">Help Queue</a>
+                <a href="{base}/docs">Documentation</a><br>
+            </p> -->
+            <ul>
+                <li>
+                    <a href="{base}">Home</a>
+                </li>
+                <li>
+                    <a href="{base}/store">School Store</a>
+                </li>
+                <li>
+                    <a href="{base}/milestone">Milestone 7</a>
+                </li>
+                <li>
+                    <a href="{base}/tools">Tool Check</a>
+                </li>
+            </ul>
         </div>
     {/if}
     <button id="bb" class="flipped" on:click={toggleVisible}>
@@ -29,7 +43,7 @@
 </div>
 
 <style>
-    p {
+    li {
         line-height: 30px;
     }
     a {
@@ -71,6 +85,10 @@
         height: 4vh;
         transform: rotateY(180deg);
     }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
     @media (max-width: 900px) {
         .index {
             flex-direction: column;
@@ -84,7 +102,7 @@
         #M {
             margin: 2vw 0;
         }
-        p {
+        li {
             padding: 0% 10%;
         }
         h3 {
@@ -102,7 +120,7 @@
         #M {
             margin: 0 2vw;
         }
-        p {
+        li {
             padding: 0% 15%;
         }
         h3 {
