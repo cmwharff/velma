@@ -1,0 +1,7 @@
+{
+    "name": "VELMA",
+    "short_name": "VELMA",
+    "display": "standalone",
+    "scope": "/velma/",
+    "start_url": "/velma/"
+  }
