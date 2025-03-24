@@ -8,7 +8,7 @@
     }
 </script>
 
-<div class="index">
+<div data-sveltekit-replacestate class="index">
     {#if visible}
         <div class="directory">
             <h3>Menu</h3>
