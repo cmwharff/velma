@@ -19,7 +19,8 @@ body {
     margin: 0;
     background-image: url("/img/shell overlay repeating.svg");
     background-repeat: repeat;
-    min-height: 96vh;
+    /* min-height: 96vh; */
+    height: 50vh;
     background-size: 50%;
     background-color: #121B21;
     color: white;
