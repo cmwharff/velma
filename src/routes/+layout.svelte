@@ -1,5 +1,6 @@
 <script lang="ts">
     import Index from "$lib/Index.svelte";
+    // import jQuery from "jquery";
 </script>
 
 <svelte:head>

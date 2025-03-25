@@ -2,7 +2,7 @@
     import { base } from "$app/paths";
 </script>
 
-<div data-sveltekit-replacestate class="text" id="Text">
+<div class="text" id="Text">
     <h1>VELMA</h1>
     <div class="apps">
         <div class="app">

@@ -8,7 +8,7 @@
     }
 </script>
 
-<div data-sveltekit-replacestate class="index">
+<div class="index">
     {#if visible}
         <div class="directory">
             <h3>Menu</h3>
@@ -23,16 +23,16 @@
             </p> -->
             <ul>
                 <li>
-                    <a href="{base}">Home</a>
+                    <a data-sveltekit-replacestate href="{base}">Home</a>
                 </li>
                 <li>
-                    <a href="{base}/store">School Store</a>
+                    <a data-sveltekit-replacestate href="{base}/store">School Store</a>
                 </li>
                 <li>
-                    <a href="{base}/milestone">Milestone 7</a>
+                    <a data-sveltekit-replacestate href="{base}/milestone">Milestone 7</a>
                 </li>
                 <li>
-                    <a href="{base}/tools">Tool Check</a>
+                    <a data-sveltekit-replacestate href="{base}/tools">Tool Check</a>
                 </li>
             </ul>
         </div>
