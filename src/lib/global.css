@@ -59,7 +59,7 @@ h1 {
     margin-bottom: 1%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .text {
         height: 88vh;
         margin: 3vh;
@@ -73,7 +73,7 @@ h1 {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 701px) {
     .text {
         height: 78vh;
     }
