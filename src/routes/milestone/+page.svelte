@@ -126,7 +126,7 @@
 </div>
 
 <style>
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         .text {
             flex-direction: column;
         }
@@ -145,7 +145,7 @@
         line-height: normal;
     }
     }
-    @media (min-width: 800px) {
+    @media (min-width: 1001px) {
         .text {
             flex-direction: row;
         }
