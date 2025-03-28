@@ -1,6 +1,6 @@
 <script>
-    import Identity from "././t_identity.svelte";
-    import Password from "././t_password.svelte";
+    import Identity from "./t_identity.svelte";
+    import Password from "./t_password.svelte";
 
     let tabs = [
         { name: "Identity", comp: Identity },
