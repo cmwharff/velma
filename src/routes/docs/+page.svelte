@@ -28,6 +28,8 @@
         background-color: #fff;
         border-bottom-color: #abc;
         font: inherit;
+        font-size: smaller;
+        color: black;
     }
     button.selected {
         border-top-right-radius: 8px;
