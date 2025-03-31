@@ -1,10 +1,18 @@
-<script>
-    import Missions from "./t_missions.svelte";
-    import ProjDetails from "./t_proj_details.svelte";
+<script lang="ts">
+    import Arena from "./proj_details/t_arena.svelte";
+    import Awards from "./proj_details/t_awards.svelte";
+    import MS5 from "./proj_details/t_ms5.svelte";
+    import MS6 from "./proj_details/t_ms6.svelte";
+    import MS7 from "./proj_details/t_ms7.svelte";
+    import Product from "./proj_details/t_product.svelte";
 
     let tabs = [
-        { name: "Mission Specifications", comp: Missions },
-        { name: "Project Details", comp: ProjDetails },
+        { name: "Arena Specifications", comp: Arena },
+        { name: "Design Awards", comp: Awards },
+        { name: "Milestone 5", comp: MS5 },
+        { name: "Milestone 6", comp: MS6 },
+        { name: "Milestone 7", comp: MS7 },
+        { name: "Product Specifications", comp: Product }
     ];
 
     let cur = tabs[0];
@@ -37,7 +45,8 @@
     }
     .text {
         font-size: 1rem;
-        padding: 2rem;
         display:block;
+        background-color: white;
+        margin: 0;
     }
 </style>

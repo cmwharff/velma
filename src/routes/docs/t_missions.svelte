@@ -1,14 +1,18 @@
-<!-- <iframe
-    src="https://docs.google.com/document/d/1hVi1nHB-7MRBvupROdQRsrOxVAwHG8lm9MQs95gMiwc/"
-    title="doc"
-    style="width:100%; height:100%; top:-57px;background-color:white;overflow:hidden;"
-></iframe> -->
-
-<script>
-    import Password from "./t_password.svelte";
+<script lang="ts">
+    import Crash from "./missions/t_crash.svelte";
+    import Data from "./missions/t_data.svelte";
+    import Fire from "./missions/t_fire.svelte";
+    import Materials from "./missions/t_materials.svelte";
+    import Seed from "./missions/t_seed.svelte";
+    import Water from "./missions/t_water.svelte";
 
     let tabs = [
-        { name: "Password", comp: Password }
+        { name: "Crash Site Surveying", comp: Crash },
+        { name: "Data Extraction", comp: Data },
+        { name: "Fire Suppression", comp: Fire },
+        { name: "Materials Identification", comp: Materials },
+        { name: "Seed Planting", comp: Seed },
+        { name: "Water Sampling", comp: Water }
     ];
 
     let cur = tabs[0];
@@ -31,12 +35,13 @@
         margin-bottom: -1px;
         background-color: #fff;
         border-bottom-color: #abc;
+        font: inherit;
     }
     button.selected {
         border-top-right-radius: 8px;
         border-top-left-radius: 8px;
         border-top-width: 8px;
-        border-color: #b0b #abc #fff;
+        border-color: #e21833 #abc #fff;
     }
     .text {
         font-size: 1rem;
