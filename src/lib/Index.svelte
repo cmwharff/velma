@@ -26,10 +26,10 @@
                     <a data-sveltekit-replacestate href="{base}">Home</a>
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/store">School Store</a>
+                    <a data-sveltekit-replacestate href="{base}/docs">Documentation</a>
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/docs">Documentation</a>
+                    <a data-sveltekit-replacestate href="{base}/store">School Store</a>
                 </li>
                 <li>
                     <a data-sveltekit-replacestate href="{base}/tools">Tool Check</a>
