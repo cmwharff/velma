@@ -41,6 +41,12 @@
             </a>
             Documentation
         </div>
+        <div class="app">
+            <a href="{base}/website">
+                <img src="{base}/img/website.png" alt="app" height="200px" />
+            </a>
+            Website
+        </div>
     </div>
 </div>
 
