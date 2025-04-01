@@ -34,6 +34,9 @@
                 <li>
                     <a data-sveltekit-replacestate href="{base}/tools">Tool Check</a>
                 </li>
+                <li>
+                    <a data-sveltekit-replacestate href="{base}/website">Website</a>
+                </li>
             </ul>
         </div>
     {/if}
