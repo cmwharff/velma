@@ -6,7 +6,7 @@
     <h1>VELMA</h1>
     <div class="apps">
         <div class="app">
-            <a href="{base}/store">
+            <a rel="preload" href="{base}/store">
                 <img src="{base}/img/store.png" alt="app" height="200px" />
             </a>
             School Store
@@ -24,7 +24,7 @@
             Maintenance
         </div> -->
         <div class="app">
-            <a href="{base}/tools">
+            <a rel="preload" href="{base}/tools">
                 <img src="{base}/img/tools.png" alt="app" height="200px" />
             </a>
             Tool Check
@@ -36,13 +36,13 @@
             Help Queue
         </div> -->
         <div class="app">
-            <a href="{base}/docs">
+            <a rel="preload" href="{base}/docs">
                 <img src="{base}/img/docs.png" alt="app" height="200px" />
             </a>
             Documentation
         </div>
         <div class="app">
-            <a href="{base}/website">
+            <a rel="preload" href="{base}/website">
                 <img src="{base}/img/website.png" alt="app" height="200px" />
             </a>
             Website

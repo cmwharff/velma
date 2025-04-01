@@ -19,6 +19,7 @@
 </script>
 
 <div class="text">
+    <link rel="preload" href="https://docs.google.com/document/d/e/2PACX-1vSFLHpf8p2p0zhl4L2aKseYKU9o91be04eaQBqMURGEkOEwkBC1QqDe3Sgg2ovlxJfIMtZKckG7TKGE/pub?embedded=true" as="document">
     {#each tabs as tab}
         <button class:selected={cur === tab} on:click={() => (cur = tab)}>
             {tab.name}

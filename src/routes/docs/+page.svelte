@@ -40,6 +40,7 @@
     .text {
         font-size: 1rem;
         padding: 2rem;
-        display:block;
+        display: block;
+        width: 90%;
     }
 </style>
