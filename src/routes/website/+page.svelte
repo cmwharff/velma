@@ -1,3 +1,17 @@
+<script lang="ts">
+    import { onDestroy, onMount } from "svelte";
+
+    onMount(() => {
+        document.getElementsByTagName("index")[0].classList.add("site");
+        document.getElementsByTagName("directory")[0].classList.add("site");
+    });
+
+    onDestroy(() => {
+        document.getElementsByTagName("index")[0].classList.remove("site");
+        document.getElementsByTagName("directory")[0].classList.remove("site");
+    });
+</script>
+
 <div class="text site">
     <iframe
         src="https://enes100.umd.edu"
