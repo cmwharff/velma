@@ -1,4 +1,4 @@
-<div class="text">
+<div class="text site">
     <iframe
         src="https://enes100.umd.edu"
         title="tools"
@@ -13,45 +13,5 @@
     .text {
         height: 100vh;
         margin: 0;
-    }
-    /* Inline | http://localhost:5173/website/ */
-
-    .page {
-        /* display: space-between; */
-    }
-
-    body {
-        /* height: 96vh; */
-        /* border-top: 2vh solid rgba(255, 210, 0, 1.00); */
-        /* border-bottom: 2vh solid rgba(255, 210, 0, 1.00); */
-        height: 100vh;
-    }
-
-    @media (min-width: 1001px) {
-        .page {
-            height: 100vh;
-        }
-    }
-
-    /* Inline | http://localhost:5173/website/ */
-
-    @media (min-width: 900px) {
-        .index.s-kB-HWnCjBMdc {
-            position: absolute;
-            top: 30vh;
-            min-height: 240px;
-        }
-    }
-
-    .directory.s-kB-HWnCjBMdc {
-        /* background-color: rgba(255, 255, 255, 0.2); */
-        background-color: #121b21 !important;
-    }
-
-    /* Inline | http://localhost:5173/website/ */
-
-    .text.s-n_WG2DzFuXSt {
-        /* height: 90vh; */
-        height: 100vh;
     }
 </style>
