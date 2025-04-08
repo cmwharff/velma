@@ -1,17 +1,3 @@
-<script lang="ts">
-    import { onDestroy, onMount } from "svelte";
-
-    onMount(() => {
-        document.getElementsByTagName("index")[0].classList.add("site");
-        document.getElementsByTagName("directory")[0].classList.add("site");
-        return () => {
-            document.getElementsByTagName("index")[0].classList.remove("site");
-            document
-                .getElementsByTagName("directory")[0]
-                .classList.remove("site");
-        };
-    });
-</script>
 
 <div class="text site">
     <iframe
