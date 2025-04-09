@@ -1,25 +1,27 @@
 <script lang="ts">
     import Index from "$lib/Index.svelte";
+    import IndexWeb from "$lib/IndexWeb.svelte";
+    import { page } from "$app/stores";
     import { onMount } from "svelte";
 
     onMount(() => {
-        console.log(`index: ${window.document.getElementsByClassName("index")}`);
-        window.document.getElementsByTagName("index")[0].classList.add("site");
-        document.getElementsByTagName("directory")[0].classList.add("site");
-        return () => {
-            document.getElementsByTagName("index")[0].classList.remove("site");
-            document
-                .getElementsByTagName("directory")[0]
-                .classList.remove("site");
-        };
+        console.log($page.url.pathname);
     });
+
 </script>
 
 <svelte:head>
     <title>VELMA</title>
 </svelte:head>
 
-<div class="page">
-    <Index></Index>
-    <slot></slot>
-</div>
+{#if $page.url.pathname != "/website/"}
+    <div class="page">
+        <Index></Index>
+        <slot></slot>
+    </div>
+{:else}
+    <div class="page">
+        <IndexWeb></IndexWeb>
+        <slot></slot>
+    </div>
+{/if}
