@@ -1,20 +1,14 @@
 <script lang="ts">
     import Index from "$lib/Index.svelte";
     import IndexWeb from "$lib/IndexWeb.svelte";
-    import { page } from "$app/stores";
-    import { onMount } from "svelte";
-
-    onMount(() => {
-        console.log($page.url.pathname);
-    });
-
+    import { page } from "$app/stores";;
 </script>
 
 <svelte:head>
     <title>VELMA</title>
 </svelte:head>
 
-{#if $page.url.pathname != "/velma/website/"}
+{#if $page.url.pathname != "/website/"}
     <div class="page">
         <Index></Index>
         <slot></slot>

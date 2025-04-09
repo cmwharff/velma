@@ -23,19 +23,27 @@
             </p> -->
             <ul>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}">Home</a>
+                    <a data-sveltekit-replacestate href={base}>Home</a>
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/docs">Documentation</a>
+                    <a data-sveltekit-replacestate href="{base}/docs"
+                        >Documentation</a
+                    >
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/store">School Store</a>
+                    <a data-sveltekit-replacestate href="{base}/store"
+                        >School Store</a
+                    >
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/tools">Tool Check</a>
+                    <a data-sveltekit-replacestate href="{base}/tools"
+                        >Tool Check</a
+                    >
                 </li>
                 <li>
-                    <a data-sveltekit-replacestate href="{base}/website">Website</a>
+                    <a data-sveltekit-replacestate href="{base}/website"
+                        >Website</a
+                    >
                 </li>
             </ul>
         </div>
@@ -48,6 +56,7 @@
 <style>
     li {
         line-height: 30px;
+        padding: 0% 15%;
     }
     a {
         font-weight: bold;
@@ -60,6 +69,7 @@
     h3 {
         font-size: 30px;
         margin: 20px 0px -10px 0px;
+        padding: 0% 10%;
     }
     .index {
         display: flex;
@@ -67,7 +77,8 @@
         justify-content: center;
         flex-basis: content;
         position: absolute;
-        top: 30vh;
+        flex-direction: row;
+        top: 10vh;
         min-height: 240px;
     }
     .directory {
@@ -76,6 +87,9 @@
         background-color: #121b21;
         color: white;
         border: 0.5vw solid white;
+        width: 16vw;
+        border-left: none;
+        min-width: 170px;
     }
     button {
         background: none;
@@ -86,6 +100,7 @@
     }
     #M {
         height: 40px;
+        margin: 0 2vw;
     }
     #bb.flipped {
         height: 4vh;
@@ -94,43 +109,5 @@
     ul {
         list-style: none;
         padding: 0;
-    }
-    @media (max-width: 900px) {
-        .index {
-            flex-direction: column;
-        }
-        .directory {
-            min-height: 12vh;
-            width: 80vw;
-            border-top: none;
-            text-align: justify;
-        }
-        #M {
-            margin: 2vw 0;
-        }
-        li {
-            padding: 0% 10%;
-        }
-        h3 {
-            padding: 0% 5%;
-        }
-    }
-    @media (min-width: 900px) {
-        .index {
-            flex-direction: row;
-        }
-        .directory {
-            width: 16vw;
-            border-left: none;
-        }
-        #M {
-            margin: 0 2vw;
-        }
-        li {
-            padding: 0% 15%;
-        }
-        h3 {
-            padding: 0% 10%;
-        }
     }
 </style>

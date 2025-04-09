@@ -77,6 +77,7 @@ h1 {
     .text {
         height: 78vh;
     }
+
     .page {
         flex-direction: row;
         width: 100vw;
@@ -85,6 +86,7 @@ h1 {
 
 .page:has(.site) {
     display: block;
+    height: 100vh;
 }
 
 body:has(.site) {
@@ -92,11 +94,6 @@ body:has(.site) {
     border: none;
 }
 
-@media (min-width: 1001px) {
-    .page:has(.site) {
-        height: 100vh;
-    }
-}
 /* Inline | http://localhost:5173/website/ */
 
 .text:has(.site) {
